@@ -82,11 +82,11 @@ def matrix_update(matrix, row, column, new_value)
   # Update the matrix location at that row and column to have the value of new_value
   # Return the updated matrix
   
-  produce_storage_room = [
+  result = [
     ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"],
     ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
   ]
-  produce_storage_room[0][2] = "Lemons"
-  produce_storage_room[0][2]
-  produce_storage_room[0]
+  result[0][2] = "Lemons"
+  result[0][2]
+  result[0]
 end
